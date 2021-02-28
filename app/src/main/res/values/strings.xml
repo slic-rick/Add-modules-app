@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Add modules</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <array name="module_year_category">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+    </array>
+
+</resources>

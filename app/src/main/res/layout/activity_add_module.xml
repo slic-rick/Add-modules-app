@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddModule">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseName"
+        android:text="course name"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <Spinner
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yearCategory"
+        android:layout_below="@+id/courseName"
+        android:entries="@array/module_year_category"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_moduleName"
+        android:hint="Enter course Name"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/yearCategory"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Save"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/saveButton"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edit_text_moduleName"/>
+
+</RelativeLayout>
